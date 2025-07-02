@@ -1,5 +1,5 @@
-from buscador import encontrar_menor_mayor
-from validador import pedir_lista_entera
+from logica.buscador import encontrar_menor_mayor
+from logica.validador import pedir_lista_entera
       
 def main():
     n = int(input("Ingrese el tamaño de la lista: "))
